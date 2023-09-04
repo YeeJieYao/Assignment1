@@ -2,6 +2,7 @@ from dash import Dash, html, dcc, Output, Input
 import plotly.express as px
 
 app = Dash(__name__)
+server = app.server
 
 image_path = 'https://www.mmu.edu.my/wp-content/themes/mmu2018/assets/images/logo-mmu.png'
 
